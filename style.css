@@ -1,0 +1,101 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Styles pour le corps du site */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Permet au contenu de s'étendre sur toute la hauteur de la fenêtre */
+}
+
+/* Styles pour le header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Styles pour la navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles pour le contenu principal */
+main {
+    flex: 1; /* Permet au contenu de s'étendre pour remplir l'espace disponible */
+    padding: 20px;
+}
+
+main article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+main article h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+main article h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+main article p {
+    margin-bottom: 15px;
+}
+
+/* Styles pour le footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Place le footer en bas de la page */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Styles pour les liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
